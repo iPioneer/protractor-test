@@ -1,0 +1,25 @@
+{
+  "name": "protractor-test",
+  "version": "1.0.0",
+  "description": "Lanars test assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "setup": "webdriver-manager update && webdriver-manager start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPioneer/protractor-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iPioneer/protractor-test/issues"
+  },
+  "homepage": "https://github.com/iPioneer/protractor-test#readme",
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {}
+}
